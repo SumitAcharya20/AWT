@@ -1,0 +1,45 @@
+h1
+{
+    background-color: rgb(128, 224, 106);
+    
+    font-size:50px; font-family:Arial, Helvetica, sans-serif
+}
+.div1
+{
+    text-align: center;
+}
+.c1
+{
+    background-color:rgb(88, 14, 118);
+	color:black; font-size:70px;
+    width:400px; height:400px;
+    padding: 15px;
+}
+.c2
+{
+    background-color:rgb(168, 6, 171);
+	color:black; font-size:70px;
+    width:400px; height:400px;
+    padding: 15px;
+}
+.c3
+{
+    background-color:rgb(206, 93, 214);
+	color:black; font-size:70px;
+    width:400px; height:400px;
+    padding: 15px;
+}
+.c4
+{
+    background-color:rgb(233, 147, 245);
+	color:black; font-size:70px;
+    width:400px; height:400px;
+    padding: 15px;
+}
+.c5
+{
+    background-color:rgb(238, 238, 239);
+	color:black; font-size:70px;
+    width:400px; height:400px;
+    padding: 15px;
+}

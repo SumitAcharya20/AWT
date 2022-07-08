@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>CSS Hover Element - Selector OR Child Combinator</title>
+        <style type = "text/css" >
+                #mainUL li ul li {display:none;}
+                #mainUL li:hover ul li{display:block;}
+                #mainUL li:hover ul li ul li{display:none;}
+                #mainUL li ul li:hover ul li{display:block;}
+                #mainUL li ul li:hover ul li ul{display:none;}
+                #mainUL li ul li ul li:hover ul li{display:none;}
+        </style>
+        
+    </head>
+    <body>
+            <ul id="MainUL"
+                    <li>Google
+                            <ul>
+                                    <li>Gmail
+                                            <ul> 
+                                                    <li>Sign Up</li>
+                                                    <li>Sign In
+                                                            <ul>
+                                                                    <li>Sign In As Admin</li>
+                                                                    <li>Sign In As Member</li>
+                                                            </ul>
+                                                    </li>
+                                            </ul>
+                                    </li>
+                
+                                    <li>Youtuber</li>
+                                    <li>GDrive</li>
+                                    <li>GMap</li>
+                            </ul>
+                    </li>
+                    <li>FaceBook</li>
+                    <li>Microsoft</li>
+                            <ul>
+                                    <li>Bing</li>
+                                    <li>Linked In</li>
+                            </ul>
+                    </li>
+                    <li>MSN</li>
+                    <li>Amazon
+                            <ul>
+                                    <li>AWS</li>
+                                    <li>E-commerce</li>
+                                    <li>A-ML</li>
+                            </ul>
+                    </li>
+    </body>
+
+</html>
